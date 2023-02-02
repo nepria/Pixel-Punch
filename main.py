@@ -1,7 +1,7 @@
 import cv2
 from FindingBallons import*
 
-img = cv2.imread("/Test Images/2.png")
+img = cv2.imread("./test.jpg")
 
 imgBallons = findBallons(img)
 img = detectHit(img, bboxs)
